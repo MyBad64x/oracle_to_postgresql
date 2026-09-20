@@ -1,0 +1,4 @@
+table_name,source_column,oracle_column
+addresses,number,address_number
+locations,number,location_number
+variant_attribute_values,value,variant_attribute_value_value

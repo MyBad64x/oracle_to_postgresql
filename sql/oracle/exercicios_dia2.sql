@@ -7,15 +7,12 @@
 --   PostgreSQL no desafio LH Nautical, para sentir na prática as
 --   divergências entre os dois dialetos.
 --
--- STATUS: NÃO EXECUTADAS
---   As tabelas do LH Nautical ainda não existem no Oracle — só as de
---   teste (teste_data, teste_num, teste_texto). Este arquivo é exercício
---   de SINTAXE.
+-- STATUS: EXECUTADAS EM 2026-09-20
+--   As queries foram executadas após a carga das 24 tabelas do LH Nautical.
+--   Os resultados conferiram com o gabarito de referência abaixo.
 --
---   PENDÊNCIA DIA 4: após carregar as 24 tabelas, rodar todas estas
---   queries e conferir contra o gabarito do desafio. Qualquer número
---   divergente indica erro na tradução — e é exatamente aí que está o
---   aprendizado.
+--   A validação foi concluída no Dia 4. Qualquer divergência futura deve
+--   ser investigada como possível alteração no dataset ou na tradução.
 --
 -- GABARITO DE REFERÊNCIA (resultados do desafio original)
 --   - orders: 48.998 linhas, datas de 2020-01-01 a 2026-12-31
